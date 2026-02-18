@@ -10,7 +10,7 @@ export default function StoreContextProvider(props) {
     const [cartItems, setCartItems] = useState({});
     const [token, setToken] = useState("");
     const [food_list, setFoodList] = useState([]);
-    const url = "http://localhost:3000";
+    const url = "https://foodadda-42kg.onrender.com";
 
     const addToCart = async (itemID) => {
         if (!cartItems[itemID]) {
