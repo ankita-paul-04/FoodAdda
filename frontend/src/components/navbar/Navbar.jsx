@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react'
 import { assets } from '../../assets/frontend_assets/assets'
-import './navbar.css'
+import './Navbar.css'
 import { Link, useNavigate } from 'react-router-dom';
 import { StoreContext } from '../../context/StoreContext';
 import { toast } from 'react-toastify';
