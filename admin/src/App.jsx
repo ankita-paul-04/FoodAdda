@@ -10,7 +10,7 @@ import { ToastContainer } from 'react-toastify';
 
 
 export default function App() {
-  const url = "http://localhost:3000";
+  const url = "https://foodadda-42kg.onrender.com";
   
   return (
     
