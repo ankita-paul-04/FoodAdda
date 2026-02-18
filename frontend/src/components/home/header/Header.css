@@ -1,0 +1,117 @@
+.header {
+    margin: 2rem 0;
+    height: 60vh;
+    background: url(/header_img.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.header .header-content {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    animation: smoothIn 0.8s;
+}
+
+.header .header-content h1 {
+    width: 60%;
+    font-size: 3rem;
+}
+
+.header .header-content p {
+    font-size: 1.3rem;
+    width: 60%;
+}
+
+.header .header-content button {
+    width: 20%;
+    padding: 0.8rem 1.4rem;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.header .header-content button:hover {
+    opacity: 0.8;
+}
+
+
+@media(max-width : 1050px) {
+    .header {
+        height: 55vh;
+    }
+
+    .header .header-content {
+        gap: 1.2rem;
+        top: 20%;
+        left: 7%;
+    }
+}
+
+@media(max-width : 855px) {
+    .header {
+        height: 65vh;
+    }
+    .header .header-content {
+        gap: 1.2rem;
+        top: 40%;
+        left: 7%;
+    }
+
+    .header .header-content button {
+        width: 40%;
+        font-size: 1.2rem;
+    }
+
+    .header .header-content h1 {
+        width: 70%;
+        font-size: 3rem;
+    }
+
+    .header .header-content p {
+        font-size: 1.1rem;
+        width: 70%;
+    }
+
+}
+
+@media(max-width : 550px) {
+
+    .header .header-content button {
+        font-size: 1rem;
+        padding: 0.6rem 1.2rem;
+    }
+
+    .header .header-content h1 {
+        font-size: 2.1rem;
+    }
+
+    .header .header-content p {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media(max-width : 440px) {
+
+    .header .header-content button {
+        font-size: 0.9rem;
+        padding: 0.6rem 1.1rem;
+    }
+
+    .header .header-content h1 {
+        font-size: 2rem;
+    }
+
+    .header .header-content p {
+        font-size: 0.8rem;
+    }
+
+}

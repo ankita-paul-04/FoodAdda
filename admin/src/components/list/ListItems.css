@@ -1,0 +1,45 @@
+.list{
+    padding: 2rem;
+}
+
+.list h1{
+    color: #605d5d;
+    margin-bottom: 1rem;
+}
+
+.list .list-container{
+    border: 1px solid #cacaca;
+    border-bottom: none;
+}
+
+.list .list-title{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 0.5fr;
+    margin-bottom: 1rem;
+    border: 1px solid #cacaca;
+    background-color: #e3dfdf;
+    padding: 1rem;
+}
+
+.list .list-items div{
+   display: grid;
+    grid-template-columns:  0.5fr 2fr 1fr 1fr 0.5fr;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #cacaca;
+}
+
+.list .list-items div:hover{
+    background-color: #f2f0f0;
+    cursor: pointer;
+}
+
+.list .list-items div img{
+    width: 30%;
+}
+
+.list .list-items div .remove{
+    color: tomato;
+    font-size: 1.4rem;
+    cursor: pointer;
+}

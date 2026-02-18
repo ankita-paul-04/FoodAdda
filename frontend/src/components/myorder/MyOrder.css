@@ -1,0 +1,31 @@
+.userorder{
+    margin-top: 1rem;
+}
+
+.userorder .userorder-box .userorder-item{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 2fr 1fr;
+    border: 1px solid #bdbdbd;
+    padding: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.userorder .userorder-box .userorder-item img{
+    width: 50%;
+}
+
+.userorder .userorder-box .userorder-item span{
+    color: tomato;
+}
+
+.userorder .userorder-box .userorder-item .track-order{
+    padding: 0.8rem 0.9rem;
+    background-color: #ffe1e1;
+    color: #454545;
+    border: none;
+    font-size: 14px;
+    /* font-weight: 600; */
+    cursor: pointer;
+}

@@ -1,0 +1,77 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    background-color: #323232;
+    color: white;
+    padding: 4rem;
+    /* position: fixed;
+    bottom: 0; */
+    /* z-index: 1; */
+
+}
+
+.footer .footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 30%;
+}
+
+.footer .footer-left .logo{
+    width: 25%;
+}
+
+.footer .footer-left p{
+    opacity: 0.5;
+}
+
+.footer .footer-left .socials{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 20%;
+    cursor: pointer;
+}
+
+.footer .footer-left .socials .socials-icon:hover{
+    opacity: 0.7;
+}
+
+
+.footer .footer-center{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer .footer-center li{
+    list-style: none;
+    opacity: 0.6;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.footer .footer-center li:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+
+.footer .footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer .footer-right .contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer .footer-right .contact-details p{
+    opacity: 0.6;
+}
+
+

@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+
+
+}
+
+.app{
+    width: 80%;
+    margin: auto;
+}
+
+    @keyframes smoothIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px); /* starts below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* ends in position */
+  }
+}
+
+
+@media (max-width : 430px) {
+   .app{
+    width: 100%;
+    margin: 0;
+   }
+}

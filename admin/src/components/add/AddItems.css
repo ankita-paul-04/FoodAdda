@@ -1,0 +1,39 @@
+.add{
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+.add .flex-col input , select{
+    padding:0.6rem 1rem;
+    /* width: 100%; */
+}
+
+.add .add-item-img img{
+    width: 40%;
+}
+
+.add .add-item-category-price {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.add .add-item-category-price .add-item-category , .add-item-price{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.add .add-btn{
+    padding: 0.6rem 1rem;
+    background-color: tomato;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    width: 50%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add .add-btn:hover{
+    opacity: 0.8;
+}

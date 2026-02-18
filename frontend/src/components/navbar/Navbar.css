@@ -1,0 +1,180 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    /* position: sticky;
+    top: 0;
+    z-index: 1000; */
+    background: white;
+}
+
+.navbar .logo {
+    width: 15%;
+}
+
+.navbar .nav-menu ul {
+    list-style: none;
+    display: flex;
+    font-weight: 700;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.navbar .nav-menu a {
+    text-decoration: none;
+    color: rgb(255, 166, 0);
+}
+
+.navbar .nav-menu a:hover {
+    text-decoration: underline;
+    color: tomato;
+    cursor: pointer;
+}
+
+.navbar .nav-menu ul .active {
+    text-decoration: underline;
+    color: tomato;
+}
+
+.navbar .right-menu {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navbar .right-menu button {
+    border: none;
+    padding: 0.8rem 1.4rem;
+    font-size: 1rem;
+    border-radius: 12px;
+    background-color: rgb(255, 166, 0);
+    color: brown;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.navbar .right-menu button:hover {
+    opacity: 0.8;
+}
+
+.navbar .right-menu .carts {
+    position: relative;
+}
+
+.navbar .right-menu .carts .dot {
+    position: absolute;
+    background-color: tomato;
+    height: 10px;
+    width: 10px;
+    top: -4px;
+    right: -4px;
+    border-radius: 50%;
+}
+
+.navbar .right-menu .logedin-user{
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar .right-menu .logout-order{
+   display: none;
+    background-color: #fff2ef;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    border-radius: 6px;
+    border: 1px solid tomato;
+}
+
+.navbar .right-menu .logedin-user:hover .logout-order{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.navbar .right-menu .logout-order .logout , .order{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    cursor: pointer;
+}
+
+.navbar .right-menu .logout-order .logout:hover , .order:hover{
+    color: tomato;
+}
+
+.navbar .right-menu .logout-order img{
+    width: 25px;
+}
+
+
+
+@media(max-width : 1050px) {
+    .navbar .right-menu {
+        gap: 1.2rem;
+    }
+
+    .navbar .right-menu button {
+        font-size: 0.9rem;
+
+    }
+
+    .navbar .right-menu .cart-icon {
+        width: 80%;
+    }
+
+    .navbar .right-menu .search-icon {
+        width: 80%;
+    }
+
+}
+
+
+@media(max-width : 900px) {
+    .navbar .nav-menu ul {
+        gap: 1.2rem;
+        font-size: 1.1rem;
+    }
+
+    .navbar .right-menu {
+        gap: 1rem;
+    }
+
+    .navbar .right-menu button {
+        font-size: 0.8rem;
+
+    }
+
+    .navbar .right-menu .cart-icon {
+        width: 70%;
+    }
+
+    .navbar .right-menu .search-icon {
+        width: 70%;
+    }
+
+}
+
+@media(max-width:800px) {
+    .navbar .nav-menu {
+        display: none;
+    }
+
+    .navbar .right-menu button {
+        padding: 0.6rem 1.4rem;
+        font-size: 0.7rem;
+    }
+
+    .navbar .logo {
+        width: 30%;
+    }
+}
+
+@media (max-width : 430px) {
+    .navbar {
+        padding: 0 1rem;
+        font-size: 0.2rem;
+    }
+}

@@ -1,0 +1,57 @@
+.placeorder{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.placeorder .delivery-info h2{
+    margin-bottom: 2rem;
+}
+
+.placeorder .delivery-info input{
+    height: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0 0.5rem 0.2rem;
+}
+
+.placeorder .delivery-info  .fullname , .address , .pin-country{
+    display: flex;
+    gap: 2.5rem;
+}
+
+
+
+
+.placeorder .bill-items{
+    margin-bottom: 1rem;
+    width: 40%;
+}
+
+.placeorder .bill-items div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    /* gap: 5rem; */
+}
+
+.placeorder .bill-items h2{
+    margin-bottom: 1rem;
+}
+
+.placeorder .bill-items .total {
+    margin-bottom: 1rem;
+}
+
+.placeorder .bill-items button{
+    background-color: tomato;
+    color : white;
+    padding: 0.9rem 1.1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.placeorder .bill-items button:hover{
+    opacity: 0.9;
+}
+

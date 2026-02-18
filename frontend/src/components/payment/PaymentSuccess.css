@@ -1,0 +1,36 @@
+
+
+.payment-success h1 {
+    color: green;
+    place-self: center;
+    margin-top: 1rem;
+}
+
+.payment-success .payment-success-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #bdbdbd;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.payment-success .payment-success-container .address{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+}
+
+.payment-success button{
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: tomato;
+    color: white;
+}
+
+.payment-success button:hover{
+    opacity: 0.9;
+}

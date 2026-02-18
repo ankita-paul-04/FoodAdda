@@ -1,0 +1,31 @@
+.orderitem {
+   
+    margin: 0 auto;
+}
+
+.orderitem h1{
+ margin-top: 1rem;
+}
+
+.orderitem .order-box .userorder-item{
+    display: grid;
+    grid-template-columns: 0.5fr 2.5fr 1fr 1fr 1fr;
+    align-items: center;
+    border: 1px solid #bdbdbdbd;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.orderitem .order-box .userorder-item .user-details .user-items{
+    margin-bottom: 1rem;
+}
+
+.orderitem .order-box .userorder-item img{
+    width: 50%;
+}
+
+.orderitem .order-box .userorder-item select{
+    background-color: #ffe8e3;
+    color: tomato;
+    border: none;
+}

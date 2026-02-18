@@ -1,0 +1,36 @@
+.sidebar {
+    border: 1px solid #a9a9a9;
+    width: 20%;
+    display: flex;
+    height: calc(100vh - 70px);
+    border-top: none;
+}
+
+.sidebar .sidebar-options {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.sidebar .sidebar-options .sidebar-option {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    border: 1px solid #a9a9a9;
+    padding: 0.7rem 0.8rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sidebar .sidebar-options .active {
+    background-color: #fff0ed;
+    border-color: tomato;
+}
+
+.sidebar .sidebar-options .sidebar-option:hover {
+    transform: scale(1.05);
+    background-color: #fff0ed;
+    border-color: tomato;
+}
